@@ -1,0 +1,127 @@
+body {
+    margin: 40px;
+}
+
+.cv-document {
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: arial, sans-serif, tahoma;
+    font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    font-size: 110%;
+}
+
+.section{
+    margin-top: 40px;
+}
+
+.avatar {
+    width: 113px;
+    height: 113px;
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.label{
+    width: 160px;
+    height: 25px;
+}
+
+.info{
+    margin-left: 160px;
+    margin-top: -25px;
+    height: 25px;
+}
+
+.section-content{
+    width: 200px;
+    height: 25px;
+    
+}
+
+.section-content2{
+    margin-left: 160px;
+    margin-top: -25px;
+    height: 25px;
+}
+
+.C{
+    width: 180px;
+    height: auto;
+    position: relative; 
+    top: -250px; 
+    
+}
+
+.Java{
+    width: 180px;
+    height: auto;
+    position: relative; 
+    top: -100px; 
+   
+}
+
+.cv-project {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline li:before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 2px;
+    height: 100%;
+    background-color: #ccc;
+}
+
+.date {
+    font-weight: bold;
+    color: #333;
+}
+

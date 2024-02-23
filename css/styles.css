@@ -99,29 +99,3 @@ body {
     font-size: 110%;
 }
 
-.timeline {
-    list-style-type: none;
-    padding: 0;
-}
-
-.timeline li {
-    position: relative;
-    padding-left: 20px;
-    margin-bottom: 20px;
-}
-
-.timeline li:before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 5px;
-    width: 2px;
-    height: 100%;
-    background-color: #ccc;
-}
-
-.date {
-    font-weight: bold;
-    color: #333;
-}
-

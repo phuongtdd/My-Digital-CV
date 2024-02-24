@@ -47,9 +47,9 @@ body {
 
 .avatar {
     width: 113px;
-    height: 113px;
-    position: absolute;
-    top: 15%;
+    height: auto ;
+    position: relative;
+    top: 25px;
     left: 90%;
     transform: translate(-50%, -50%);
 }
@@ -97,5 +97,14 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 110%;
+}
+
+.Full-Name{
+    width: 500px;
+    height: auto;
+}
+
+.personal-info{
+    margin-top: -110px;
 }
 
